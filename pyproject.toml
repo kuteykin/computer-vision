@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "learning-computer-vision"
+version = "0.1.0"
+description = "Some tasks on in=mage recognition, fragment matching et"
+authors = ["Konstantin Kuteykin <konstantin.kuteykin@upf.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.8.0.76"
+pathlib = "^1.0.1"
+matplotlib = "^3.8.0"
+pip = "^23.2.1"
+ipykernel = "^6.25.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
